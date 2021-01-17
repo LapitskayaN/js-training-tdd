@@ -8,6 +8,14 @@
  */
 
 // Your code:
+let rez;
+function isPositive (n) {
+    if (typeof n === 'Number' || n>0) {
+        return rez = true
+    } else {
+        return rez = false
+    }
+}
 
 //* Begin of tests
 const assert = require('assert');
