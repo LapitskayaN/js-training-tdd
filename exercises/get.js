@@ -17,7 +17,6 @@ const sourceObject = {
 
 // Your code:
 const get = (key) =>{
-  //for (let key in sourceObject)
   return sourceObject[key]
  }
 //* Begin of tests
