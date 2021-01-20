@@ -8,8 +8,8 @@
  */
 
 // Your code:
+  //return string.repeat(times);
 const repeat = (string,times) =>{
-  
       let repeatedString = "";
       while (times > 0) {
       repeatedString += string;
