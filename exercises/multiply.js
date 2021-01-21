@@ -9,7 +9,23 @@
  */
 
 // Your code:
-
+const multiply = (num1,num2)=>{
+    let res = 0;
+    if ( num2>0) {
+        for (let i=0; i<num2; i++){
+            res += num1;
+            }
+            return res;
+       }  else if (num1===0 || num2===0)  {
+        return 0;
+       } else {
+        for (let i=0; i>num2; i--){
+            res += num1;
+            }
+            return -res;
+       }    
+  
+}
 //* Begin of tests
 const assert = require('assert');
 

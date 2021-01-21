@@ -15,15 +15,12 @@ const jadenCase = (str) =>{
     let arr=str.split('');
     let res ='';
             for (let i=0; i<arr.length; i++) {
-                if (arr[i-1]==' ') {   
-                   // let b = arr[i]               
+                if (arr[i-1]===' ') {                                  
                      res += arr[i].toUpperCase()
                 } else {
                 res +=arr[i];
-                }
-               
-            }
-   
+                }               
+            }   
     return res;
  }
 //* Begin of tests
